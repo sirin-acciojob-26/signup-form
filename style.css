@@ -1,0 +1,52 @@
+body{
+    width: 1578px;
+    height: 1020px;
+    top: -457px;
+    left: -715px;
+    gap: 0px;
+    opacity: 0px;
+    
+}
+.box{
+    width: 1000px;
+height: 712px;
+
+border: 1px solid black;
+opacity: 0px;
+background-color: black;
+
+
+
+}
+.box1{
+    margin-top: 154px;
+    margin-left: 198px;
+}
+h1{
+    color: white;
+}
+.name{
+    width: 500px;
+
+    top: 324.01px;
+    left: 202px;
+    gap: 0px;
+    border: none;
+    opacity: 0px;
+    border-bottom: 1px solid white;
+background-color: black;
+    
+}
+
+.radio-btn{
+    color :white;
+}
+input:radio{
+    background-color: black;
+    border-radius: 50%;
+    border: 1px;
+}
+.submit{
+margin-left: 2px;
+}
+

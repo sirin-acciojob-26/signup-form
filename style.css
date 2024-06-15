@@ -38,15 +38,33 @@ background-color: black;
     
 }
 
-.radio-btn{
-    color :white;
-}
-input:radio{
+  /* Hide the default radio button */
+  input[type="radio"] {
+    
+    opacity: 0;
+    cursor: pointer;
+  }
+
+  /* Create a custom radio button */
+  .custom-radio {
+    
+    display: flex;
+    width: 10px;
+    height: 10px;
     background-color: black;
+    border: 1px solid white;
     border-radius: 50%;
-    border: 1px;
+  }
+
+  .radio-btn{
+    color: white;
+  }
+.span{
+    color: white;
 }
 .submit{
-margin-left: 2px;
+    padding: 10px;
 }
-
+.custom-checkbox{
+    color: white;
+}
